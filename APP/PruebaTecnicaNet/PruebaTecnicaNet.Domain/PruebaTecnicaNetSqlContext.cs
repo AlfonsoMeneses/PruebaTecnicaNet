@@ -28,7 +28,7 @@ namespace PruebaTecnicaNet.Domain
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=AKATSUKI-PC;Database=PruebaTecnicaNet;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=AMMM-PC;Database=PruebaTecnicaNet;Trusted_Connection=True;");
             }
         }
 
